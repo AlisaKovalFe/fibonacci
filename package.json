@@ -1,0 +1,22 @@
+{
+  "name": "fibonacci",
+  "version": "1.0.0",
+  "description": "В этой задаче ты снова рассмотришь реализацию аналогичного процесса двумя разными способами: итеративно и рекурсивно. Ты ознакомился(ась) с каждым из этих подходов в [предыдущей задаче].",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlisaKovalFe/fibonacci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlisaKovalFe/fibonacci/issues"
+  },
+  "homepage": "https://github.com/AlisaKovalFe/fibonacci#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
