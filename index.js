@@ -32,7 +32,9 @@ const findNFiboByIterations = (n) => {
 // Рекурсивное вычисление n-го числа Фибоначчи
 
 const findNFiboByRecursion = (n) => {
-    return n < 0 || n % 1 !== 0 || (n == 0 && (1 / n === - Infinity)) ? 'введи целое число от нуля и больше' : (n <= 1 ? n : findNFiboByRecursion(n - 1) + findNFiboByRecursion(n - 2))
+    return n < 0 || n % 1 !== 0 || (n == 0 && (1 / n === - Infinity)) ?
+        'введи целое число от нуля и больше' :
+        (n <= 1 ? n : findNFiboByRecursion(n - 1) + findNFiboByRecursion(n - 2))
 }
 
 module.exports = { findNFiboByIterations, findNFiboByRecursion }
